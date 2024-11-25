@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>予約フォーム</title>
+<link rel="stylesheet" href="css/skyblue.css" >
+<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+<link rel="stylesheet" href="css/helper.css">
+</head>
+
+<body>
+ <div class="bg-success padding-y-5">
+	<div class="container padding-y-5 text-center">
+	<strong>予約フォーム</strong>
+	</div>
+ </div>
+ <div class="padding-y-5">
+	<div style="width: 40%" class="container padding-y-5">
+		<form action="./reservation3.html" method="get">
+		   <table border="1" class="tabel">
+			<tr>
+				<th><label for="userName"><span class="icon-id pe-2x pe-va"></span>&nbsp;名前
+				</label></th>
+			<td><input type="text" name="userName" id="userName" class="form-control"></td>
+			</tr>
+			<tr>
+				<th><span class="icon-users pe-2x pe-va"></span>&nbsp;人数</th>
+				<td>
+					<select name="people" class="form-control">
+						<option value="1">1名</option>
+						<option value="2">2名</option>
+						<option value="3">3名</option>
+						<option value="4">4名</option>
+						<option value="5">5名</option>
+						<option value="6">6名</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<th><label for="postcode"><span class="icon-home pe-2x pe-va"></span>&nbsp;郵便番号
+				</label></th>
+				<td><input type="text" name="postcode" id="postcode" class="form-control"></td>
+			</tr>
+			<tr>
+				<th><label for="address"><span class="icon-map-marker pe-2x pe-va"></span>&nbsp;住所
+				</label></th>
+				<td><input type="text" name="address" id="address" class="form-control"></td>
+			</tr>
+			<tr>
+				<th><label for="tel"><span class="icon-call pe-2x pe-va"></span>&nbsp;電話番号
+				</label></th>
+				<td><input type="text" name="tel" id="tel" class="form-control"></td>
+			</tr>
+			<tr>
+				<th><label for="mail"><span class="icon-mail pe-2x pe-va"></span>&nbsp;メールアドレス
+				</label></th>
+				<td><input type="text" name="mail" id="mail" class="form-control"></td>
+			</tr>
+			<tr>
+				<th><span class="icon-note2 pe-2x pe-va"></span>&nbsp;ご要望</th>
+				<td><input type="text" name="q" id="q" class="form-control"></td>
+			</tr>
+			<th><input type="submit" value="送信"/></th>
+			
+		   </table>
+	  </form>
+	</div>
+ </div>
+</body>
+</html>

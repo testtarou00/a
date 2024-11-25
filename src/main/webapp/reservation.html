@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>予約フォーム</title>
+<script type="text/javascript">
+	<!--
+	function check(){
+	if(document.login.id.value==""){
+		window.alert("メールアドレスが未入力です。");
+		return false;
+	}else if(document.login.pass.value==""){
+		window.alert("パスワードが未入力です。");
+		return false;
+	}
+	return true;
+	}
+	-->
+</script>
+<link rel="stylesheet" href="css/skyblue.css" >
+<link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+<link rel="stylesheet" href="css/helper.css">
+</head>
+<body></body>>
+<div class="bg-success padding-y-5">
+	<div class="container padding-y-5 text-center">
+	<strong>会員登録</strong>
+	</div>
+ </div>
+ <div class="padding-y-5">
+ 	<div style="width: 40%" class="container padding-y-5">
+<form id="login" name="login" action="./reservation2.html" method="post"
+	                            onsubmit="return check();">
+	メールアドレス : <input type="text" name="id"/><br/><br/>
+	パスワード : <input type="password" name="pass"/><br/><br/>
+	<input type="submit" value="会員登録"/>
+	<input type="reset" value="クリア"/>
+</form>
+ 	</div>
+ </div> 
+</body>
+</html>
